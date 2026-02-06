@@ -14,7 +14,7 @@
 
     <h1>Create Lead</h1>
     <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DF9000000dMjk"
-        method="POST" onsubmit="beforeSubmit()">
+        method="POST" onsubmit="beforeSubmit(event)">
 
         <input type=hidden name='captcha_settings'
             value='{"keyname":"WebToLead","fallback":"true","orgId":"00DF9000000dMjk","ts":""}'>
@@ -41,7 +41,7 @@
                 type="text" /></span><br> -->
 
         <input type="submit" name="submit" class="submit"><br>
-        <div class="g-recaptcha" data-sitekey="6LeYT2IsAAAAAD1j1l62YCKzwQy_z9AX6IdY7nnS"></div>
+        <div class="g-recaptcha" data-callback="captchasuccess" data-sitekey="6LeYT2IsAAAAAD1j1l62YCKzwQy_z9AX6IdY7nnS"></div>
 
     </form>
 

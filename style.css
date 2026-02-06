@@ -1,27 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-h1{
+h1 {
     text-align: center;
     margin: 20px 0;
 }
 
-input, label{
+input,
+label {
     display: block;
 }
 
-label{
+label {
     color: rgb(66, 15, 107);
 }
 
-input{
+input {
     width: 100%;
 }
 
-.submit{
+.submit {
     margin: 15px auto 0 auto;
     border-radius: 4px;
     width: 40%;
@@ -29,7 +30,7 @@ input{
     background-color: #886192;
 }
 
-form{
+form {
     min-width: 300px;
     max-width: 400px;
     margin: auto;
